@@ -113,6 +113,10 @@ body {
   }
 }
 
+.logo{
+  width: 171px;
+}
+
 .container-fluid{
   padding: 0px;
 }

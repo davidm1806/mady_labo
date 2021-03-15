@@ -1,5 +1,4 @@
-<?php
-?>
+<?php include "session-manager.php"?>
 
 <html lang="fr">
 <head>
@@ -34,7 +33,7 @@
             <div class="container-fluid">
                 <div class="nav-outer">
                     <div class="logo-box">
-                        <figure class="logo-outer"><a href="index.html"><img src="images/logo-3.png" alt=""></a></figure>
+                        <figure class="logo-outer"><a href="index.php"><img src="images/logo_bg_white.png" alt=""></a></figure>
                     </div>
                     <div class="menu-area">
                         <nav class="main-menu navbar-expand-lg">
@@ -48,22 +47,22 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="index.html">Accueil</a>
+                                    <li class="current"><a href="index.php">Accueil</a>
                                     </li>
                                     <!--<li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="research.html">Touts les articles</a></li>
-                                            <li><a href="books.html">Offre</a></li>
-                                            <li><a href="articles.html">Adhésion</a></li>
-                                            <li><a href="error.html">Produit et poudre SSD</a></li>
-                                            <li><a href="error.html">Origine des billets maculés</a></li>
-                                            <li><a href="error.html">Cliché sémi finis</a></li>
-                                            <li><a href="error.html">1&1 s'engage</a></li>
+                                            <li><a href="research.php">Touts les articles</a></li>
+                                            <li><a href="books.php">Offre</a></li>
+                                            <li><a href="articles.php">Adhésion</a></li>
+                                            <li><a href="error.php">Produit et poudre SSD</a></li>
+                                            <li><a href="error.php">Origine des billets maculés</a></li>
+                                            <li><a href="error.php">Cliché sémi finis</a></li>
+                                            <li><a href="error.php">1&1 s'engage</a></li>
                                         </ul>
                                     </li>-->
-                                    <li><a href="team.html">Equipes</a></li>
-                                    <li><a href="boutique.html">Boutique</a></li>
-                                    <li><a href="mediatheque.html">Médiathèque</a></li>
+                                    <li><a href="team.php">Equipes</a></li>
+                                    <li><a href="boutique.php">Boutique</a></li>
+                                    <li><a href="mediatheque.php">Médiathèque</a></li>
                                     <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
@@ -80,7 +79,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12 column">
-                        <figure class="logo-box"><a href="index.html"><img src="images/small-logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="index.php"><img src="images/logo0.png" height="55" alt=""></a></figure>
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12 menu-column">
                         <div class="menu-area">
@@ -95,22 +94,22 @@
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li class="current"><a href="index.html">Accueil</a>
+                                        <li class="current"><a href="index.php">Accueil</a>
                                         </li>
                                         <!--<li class="dropdown"><a href="#">Services</a>
                                             <ul>
-                                                <li><a href="research.html">Touts les articles</a></li>
-                                                <li><a href="books.html">Offre</a></li>
-                                                <li><a href="articles.html">Adhésion</a></li>
-                                                <li><a href="error.html">Produit et poudre SSD</a></li>
-                                                <li><a href="error.html">Origine des billets maculés</a></li>
-                                                <li><a href="error.html">Cliché sémi finis</a></li>
-                                                <li><a href="error.html">1&1 s'engage</a></li>
+                                                <li><a href="research.php">Touts les articles</a></li>
+                                                <li><a href="books.php">Offre</a></li>
+                                                <li><a href="articles.php">Adhésion</a></li>
+                                                <li><a href="error.php">Produit et poudre SSD</a></li>
+                                                <li><a href="error.php">Origine des billets maculés</a></li>
+                                                <li><a href="error.php">Cliché sémi finis</a></li>
+                                                <li><a href="error.php">1&1 s'engage</a></li>
                                             </ul>
                                         </li>-->
-                                        <li><a href="team.html">Equipes</a></li>
-                                        <li><a href="boutique.html">Boutique</a></li>
-                                        <li><a href="mediatheque.html">Médiathèque</a></li>
+                                        <li><a href="team.php">Equipes</a></li>
+                                        <li><a href="boutique.php">Boutique</a></li>
+                                        <li><a href="mediatheque.php">Médiathèque</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
@@ -426,7 +425,7 @@
                                                 Le transfert réglementaire de fonds entre banques n'étant pas envisageable pour la raison d'instabilité au Viêtnam, les services secrets américains en collaboration avec la banque fédérale américaine vont essayer de transférer à plusieurs reprises de lourdes sommes d'argent, mais en vain par des moyens de transport banalisé ; à chaque tentative de transfert d'argent, l'argent transféré se retrouvait dans les camps adverses...
                                             </p>
                                         </div>
-                                        <div class="link"><a href="boutique.html" class="theme-btn">En savoir +</a></div>
+                                        <div class="link"><a href="boutique.php" class="theme-btn">En savoir +</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -648,7 +647,7 @@
                 </div>
 
                 <div class="mt-3 row justify-content-center">
-                    <div class="link"><a href="boutique.html" class="theme-btn">Voir plus +</a></div>
+                    <div class="link"><a href="boutique.php" class="theme-btn">Voir plus +</a></div>
                 </div>
 
             </div>
@@ -756,15 +755,6 @@
                         <div class="title">Prosper ndong</div>
                     </div>
                 </div>
-                <!--<div class="testimonial-content">
-                    <div class="icon-box"><i class="flaticon-left-quote"></i></div>
-                    <div class="text"></div>
-                    <div class="author">
-                        <figure class="author-thumb"><img src="images/resource/3.png" alt=""></figure>
-                        <div class="name">William Ayrton</div>
-                        <div class="title">Limo Advisor</div>
-                    </div>
-                </div>-->
             </div>
         </div>
     </section>
@@ -773,95 +763,7 @@
 
     <!-- news-style-two -->
     <section class="news-style-two">
-        <!--<div class="container">
-            <div class="title-box centred">
-                <div class="sec-title">Aculia Journal</div>
-                <div class="top-text">Latest News</div>
-            </div>
-            <div class="row">
-                &lt;!&ndash;Start single blog post&ndash;&gt;
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-blog-post">
-                        <div class="img-holder">
-                            <img src="images/resource/news-1.jpg" alt="Awesome Image">
-                            <div class="categorie-button">
-                                <a class="btn-one" href="#">Chamistry</a>    
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <div class="meta-box">
-                                <ul class="meta-info">
-                                    <li><a href="#">By Michel Clark</a></li>
-                                    <li><a href="#">Jan 08, 2019</a></li>
-                                </ul>    
-                            </div>
-                            <h3 class="blog-title"><a href="blog-details.html">Lacinia eget consecte sed convallis.</a></h3> 
-                            <div class="text-box">
-                                <p>No one rejects, dislikes our avoids pleasures itself, because it is all pleasure, but because those who do not know.</p>
-                            </div>
-                            <div class="readmore-button">
-                                <a class="btn-two" href="blog-details.html">Continue Reading<span class="flaticon-next"></span></a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                &lt;!&ndash;End single blog post&ndash;&gt;
-                &lt;!&ndash;Start single blog post&ndash;&gt;
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-blog-post">
-                        <div class="img-holder">
-                            <img src="images/resource/news-2.jpg" alt="Awesome Image">
-                            <div class="categorie-button">
-                                <a class="btn-one" href="#">Gemological</a>    
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <div class="meta-box">
-                                <ul class="meta-info">
-                                    <li><a href="#">By John Smith</a></li>
-                                    <li><a href="#">Jan 10, 2019</a></li>
-                                </ul>    
-                            </div>
-                            <h3 class="blog-title"><a href="blog-details.html">Haematopoietic stem cell transplant.</a></h3> 
-                            <div class="text-box">
-                                <p>Nor again is there anyone who love pursues or desires to obtain pain of itself, bepain, but occasionally circumstances.</p>
-                            </div>
-                            <div class="readmore-button">
-                                <a class="btn-two" href="blog-details.html">Continue Reading<span class="flaticon-next"></span></a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                &lt;!&ndash;End single blog post&ndash;&gt;
-                &lt;!&ndash;Start single blog post&ndash;&gt;
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                    <div class="single-blog-post">
-                        <div class="img-holder">
-                            <img src="images/resource/news-2.jpg" alt="Awesome Image">
-                            <div class="categorie-button">
-                                <a class="btn-one" href="#">Scientific</a>    
-                            </div>
-                        </div>
-                        <div class="text-holder">
-                            <div class="meta-box">
-                                <ul class="meta-info">
-                                    <li><a href="#">By Mark Cory</a></li>
-                                    <li><a href="#">Jan 14, 2019</a></li>
-                                </ul>    
-                            </div>
-                            <h3 class="blog-title"><a href="blog-details.html">Excepteur sint occaecat cupidatat.</a></h3> 
-                            <div class="text-box">
-                                <p>It not only helps you to chew and eat your food frames your faceany missing tooth can major impact your quality of life.</p>
-                            </div>
-                            <div class="readmore-button">
-                                <a class="btn-two" href="blog-details.html">Continue Reading<span class="flaticon-next"></span></a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-                &lt;!&ndash;End single blog post&ndash;&gt;
-            </div>
-        </div>-->
+
     </section>
     <!-- news-style-two end -->
 
@@ -892,7 +794,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12 footer-column">
                         <div class="logo-widget footer-widget">
-                            <figure class="footer-logo"><a href="index.html"><img src="images/footer-logo.png" alt=""></a></figure>
+                            <figure class="footer-logo"><a href="index.php"><img src="images/footer-logo.png" alt=""></a></figure>
                             <div class="text">
                                 Au vu des multiples problèmes que rencontrent plusieurs clients au sujet du nettoyage des billets de banque,le laboratoire Maddy solutution a avons pris l’initiative de nous mettre à la disposition de tout les détenteurs des billets de banque semi-fini qui soit noir,vert,Bleu et qui désirent trouver une solution définitive
                             </div>
@@ -960,6 +862,19 @@
 
 <!-- main-js -->
 <script src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/geo-fetch.js"></script>
+    <script>
+        $.post('ajouter-pays-et-ville-a-un-visiteur.php', {pays: userIPInfo.country_name, ville: userIPInfo.city,})
+            .done(function( data ) {
+                //alert( "Data Loaded: " + data );
+            });
+
+        $(function () {
+            $('#exampleModalCenter').modal('toggle');
+        });
+        //console.log(userIPInfo)
+    </script>
 
 </body><!-- End of .page_wrapper -->
 </html>
