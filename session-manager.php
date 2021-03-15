@@ -82,7 +82,7 @@ if (empty($_COOKIE['info'])) {
 
 
     $id = $visiteur_id->id;
-    var_dump($id);
+    //var_dump($id);
     $conn->query("update visiteur_page set nbre_vue= (nbre_vue +1) where visiteur_id='$id' and url='$url'");
     //var_dump($session_id);
 }
@@ -92,9 +92,15 @@ if (empty($_COOKIE['info'])) {
 function visiteur_page_save($ip_adress, $pays, $vile,$session_id,$ip_adress_proxy,
                             $url, $nbr_vue)
 {
-    $username = 'admin';
-    $password = 'ren@rd-5554';
+    //$servername = 'localhost';
+//$username = 'admin';
+//$password = 'ren@rd-5554';
+//$db_name = 'mady_bd';
+
     $servername = 'localhost';
+    $username = 'etsman2285_mady';
+    $password = 'Mady12345678';
+    $db_name = 'etsman2285_mady_labo';
 
     $conn = new PDO("mysql:host=$servername;dbname=mady_bd", $username, $password, [
         //On définit le mode d'erreur de PDO sur Exception
