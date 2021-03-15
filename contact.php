@@ -35,22 +35,7 @@
     <!-- Main Header -->
     <header class="main-header">
         <!-- header-top -->
-        <div class="header-top">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="logo-box top-left">
-                        <figure class="logo-outer"><a href="index.html"><img src="images/logo.png" alt=""></a></figure>
-                    </div>
-                    <div class="top-right">
-                        <ul class="header-info clearfix">
-                            <li><i class="flaticon-contact"></i>msslaboratoire@gmail.com</li>
-                            <li><i class="flaticon-marker"></i>France, Montauban, 9, rue de l'Hôtel-de-Ville</li>
-                            <li><a href="contact.php" class="theme-btn">contactez nous</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div><!-- header-top end -->
+        <?php include 'inc/component/sub-header.php'?>
 
         <!-- header-bottom -->
         <div class="header-bottom">
@@ -68,22 +53,22 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li><a href="index.html">Accueil</a>
+                                    <li><a href="index.php">Accueil</a>
                                     </li>
                                     <!--<li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="research.html">Touts les articles</a></li>
-                                            <li><a href="books.html">Offre</a></li>
-                                            <li><a href="articles.html">Adhésion</a></li>
-                                            <li><a href="error.html">Produit et poudre SSD</a></li>
-                                            <li><a href="error.html">Origine des billets maculés</a></li>
-                                            <li><a href="error.html">Cliché sémi finis</a></li>
-                                            <li><a href="error.html">1&1 s'engage</a></li>
+                                            <li><a href="research.php">Touts les articles</a></li>
+                                            <li><a href="books.php">Offre</a></li>
+                                            <li><a href="articles.php">Adhésion</a></li>
+                                            <li><a href="error.php">Produit et poudre SSD</a></li>
+                                            <li><a href="error.php">Origine des billets maculés</a></li>
+                                            <li><a href="error.php">Cliché sémi finis</a></li>
+                                            <li><a href="error.php">1&1 s'engage</a></li>
                                         </ul>
                                     </li>-->
-                                    <li><a href="team.html">Equipes</a></li>
-                                    <li><a href="boutique.html">Boutique</a></li>
-                                    <li><a href="mediatheque.html">Médiathèque</a></li>
+                                    <li><a href="team.php">Equipes</a></li>
+                                    <li><a href="boutique.php">Boutique</a></li>
+                                    <li><a href="mediatheque.php">Médiathèque</a></li>
                                     <li class="current"><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
@@ -99,13 +84,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12 column">
-                        <figure class="logo-box"><a href="index.html"><img src="images/small-logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="index.php"><img src="images/logo0.png" height="55" alt=""></a></figure>
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12 menu-column">
                         <div class="menu-area">
                             <nav class="main-menu navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <!-- Toggle Button -->      
+                                    <!-- Toggle Button -->
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -114,22 +99,22 @@
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li><a href="index.html">Accueil</a>
+                                        <li><a href="index.php">Accueil</a>
                                         </li>
                                         <!--<li class="dropdown"><a href="#">Services</a>
                                             <ul>
-                                                <li><a href="research.html">Touts les articles</a></li>
-                                                <li><a href="books.html">Offre</a></li>
-                                                <li><a href="articles.html">Adhésion</a></li>
-                                                <li><a href="error.html">Produit et poudre SSD</a></li>
-                                                <li><a href="error.html">Origine des billets maculés</a></li>
-                                                <li><a href="error.html">Cliché sémi finis</a></li>
-                                                <li><a href="error.html">1&1 s'engage</a></li>
+                                                <li><a href="research.php">Touts les articles</a></li>
+                                                <li><a href="books.php">Offre</a></li>
+                                                <li><a href="articles.php">Adhésion</a></li>
+                                                <li><a href="error.php">Produit et poudre SSD</a></li>
+                                                <li><a href="error.php">Origine des billets maculés</a></li>
+                                                <li><a href="error.php">Cliché sémi finis</a></li>
+                                                <li><a href="error.php">1&1 s'engage</a></li>
                                             </ul>
                                         </li>-->
-                                        <li><a href="team.html">Equipes</a></li>
-                                        <li><a href="boutique.html">Boutique</a></li>
-                                        <li><a href="mediatheque.html">Médiathèque</a></li>
+                                        <li><a href="team.php">Equipes</a></li>
+                                        <li><a href="boutique.php">Boutique</a></li>
+                                        <li><a href="mediatheque.php">Médiathèque</a></li>
                                         <li class="current"><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
@@ -149,7 +134,7 @@
             <div class="content-box">
                 <div class="title">Contactez Nous</div>
                 <ul class="bread-crumb">
-                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.php">Accueil</a></li>
                     <li>Contactez Nous</li>
                 </ul>
             </div>
@@ -162,57 +147,39 @@
     <section class="contact-section">
 
 
-        <??>
+        <?php if(isset($_POST['name'])) include "send-email/send-email.php"?>
+
 
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 content-column">
                     <div class="inner-content">
-                        <!--<div class="content-style-one">
-                            <div class="inner-title">Masters, Mphil and Honours</div>
-                            <div class="text">
-                                <p>Quasi architebeatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptassit. aspernatur aut odit fugit sed quia consequuntur magni dolores eos qui ratione voluptam sequi nescuntneque porro quisquam  dolorem ipsum quia dolor sit amet consectetur adipiscing velit sed quia numquam eius modi tempora incidunt ut labore et dolore consectetur adipisicing elit sed eiusmod tempor incididunt.ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore.</p>
-                            </div>
-                        </div>
-                        <div class="content-style-two">
-                            <div class="inner-title">PHD Opportunities</div>
-                            <div class="text">
-                                <p>Quasi architebeatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptassit. aspernatur aut odit fugit sed quia consequuntur magni dolores eos qui ratione voluptam sequi nescuntneque porro quisquam  dolorem ipsum quia dolor sit amet consectetur adipiscing velit sed quia numquam eius modi tempora incidunt ut labore et dolore consectetur adipisicing elit sed eiusmod tempor incididunt.ut labore et dolore magna aliqua enim ad minim veniam.</p>
-                            </div>
-                        </div>
-                        <div class="content-style-three">
-                            <div class="inner-title">Postdoctoral Fellow</div>
-                            <div class="text">
-                                <p>Quasi architebeatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptassit. aspernatur aut odit fugit sed quia consequuntur magni dolores eos qui ratione voluptam sequi nescuntneque porro quisquam  dolorem ipsum quia dolor sit amet consectetur adipiscing velit sed quia numquam eius modi tempora incidunt ut labore et dolore consectetur adipisicing elit sed eiusmod tempor incididunt.ut labore et dolore magna aliqua enim ad minim veniam.</p>
-                            </div>
-                        </div>-->
                         <div class="contact-form-area">
                             <form id="contact-form" name="contact_form" class="default-form" action="" method="post">
                                 <div class="form-group">
                                     <label>Nom complèt*</label>
-                                    <input type="text" name="form_name" required>
+                                    <input type="text" name="name" required>
                                 </div>
                                 <div class="form-group">
                                     <label>Email*</label>
-                                    <input type="email" name="form_email" required>
+                                    <input type="email" name="email" required>
                                 </div>
                                 <div class="form-group">
                                     <label>Téléphone</label>
-                                    <input type="text" name="form_phone">
+                                    <input type="text" name="phone">
                                 </div>
                                 <div class="form-group">
                                     <label>Suject*</label>
-                                    <input type="text" name="form_subject" required>
+                                    <input type="text" name="object">
                                 </div>
                                 <div class="form-group">
                                     <label>Votre message*</label>
-                                    <textarea name="form_message" required></textarea>
+                                    <textarea name="message" required></textarea>
                                 </div>
                                 <span class="text-danger">Les champs ayant le caractère (*) sont obligatoires</span>
                                 <div class="contact-button">
-                                    <button type="submit" class="theme-btn" data-loading-text="Veillez partienter.....">Send Message</button>
+                                    <button type="submit" class="theme-btn" id="btn-submit" data-loading-text="Veillez partienter.....">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -251,7 +218,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12 footer-column">
                         <div class="logo-widget footer-widget">
-                            <figure class="footer-logo"><a href="index.html"><img src="images/footer-logo.png" alt=""></a></figure>
+                            <figure class="footer-logo"><a href="index.php"><img src="images/footer-logo.png" alt=""></a></figure>
                             <div class="text">
                                 Au vu des multiples problèmes que rencontrent plusieurs clients au sujet du nettoyage des billets de banque,le laboratoire Maddy solutution a avons pris l’initiative de nous mettre à la disposition de tout les détenteurs des billets de banque semi-fini qui soit noir,vert,Bleu et qui désirent trouver une solution définitive
                             </div>
@@ -319,6 +286,27 @@
 
 <!-- main-js -->
 <script src="js/script.js"></script>
+
+
+<script>
+    /*document.getElementById('btn-submit').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.forms[0].submit();
+    })*/
+</script>
+
+    <script type="text/javascript" src="js/geo-fetch.js"></script>
+    <script>
+        $.post('ajouter-pays-et-ville-a-un-visiteur.php', {pays: userIPInfo.country_name, ville: userIPInfo.city,})
+            .done(function( data ) {
+                //alert( "Data Loaded: " + data );
+            });
+
+        $(function () {
+            $('#exampleModalCenter').modal('toggle');
+        });
+        //console.log(userIPInfo)
+    </script>
 
 </body><!-- End of .page_wrapper -->
 </html>

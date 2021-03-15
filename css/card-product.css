@@ -179,6 +179,11 @@ div {
     height: 221px;
 }
 
+.video-card{
+    height: 400px;
+    width: 100%;
+}
+
 @media only screen and (max-width: 991px) {
     .bbb_deals {
         width: 100%;

@@ -1,5 +1,5 @@
 <?php
-include("panel/connectionbd.php");
+include("inc/connexion.php");
 
 if (isset($_POST)) {
     $pays = $_POST['pays'];
@@ -10,7 +10,7 @@ if (isset($_POST)) {
 
     $query = "update visiteur set pays='$pays', ville='$ville' where session_id='$id'";
 
-    $result = mysql_query($query);
+    $conn->exec($query);
     /*if(!$result)
         die('Requet invalid :'.mysql_error());*/
 }

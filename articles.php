@@ -1,5 +1,7 @@
+<?php include "session-manager.php"?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,22 +28,8 @@
     <!-- Main Header -->
     <header class="main-header">
         <!-- header-top -->
-        <div class="header-top">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="logo-box top-left">
-                        <figure class="logo-outer"><a href="index.html"><img src="images/logo.png" alt=""></a></figure>
-                    </div>
-                    <div class="top-right">
-                        <ul class="header-info clearfix">
-                            <li><i class="flaticon-contact"></i>example@gmail.com</li>
-                            <li><i class="flaticon-marker"></i>Bulls Stadium, California</li>
-                            <li><a href="#" class="theme-btn">Join Research</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div><!-- header-top end -->
+        <?php include 'inc/component/sub-header.php'?>
+        <!-- header-top end -->
 
         <!-- header-bottom -->
         <div class="header-bottom">
@@ -59,42 +47,23 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="dropdown"><a href="#">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Page 01</a></li>
-                                            <li><a href="index-2.html">Home Page 02</a></li>
-                                            <li><a href="index-3.html">Home Page 03</a></li>
-                                            <li><a href="index-4.html">Home Page 04</a></li>
-                                            <li><a href="index-5.html">Home Page 05</a></li>
-                                        </ul>
+                                    <li class="current"><a href="index.php">Accueil</a>
                                     </li>
-                                    <li class="current dropdown"><a href="#">Pages</a>
+                                    <!--<li class="dropdown"><a href="#">Services</a>
                                         <ul>
-                                            <li><a href="research.html">Research Page</a></li>
-                                            <li><a href="books.html">Our Books</a></li>
-                                            <li><a href="articles.html">Journal Articles</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
+                                            <li><a href="research.php">Touts les articles</a></li>
+                                            <li><a href="books.php">Offre</a></li>
+                                            <li><a href="articles.php">Adhésion</a></li>
+                                            <li><a href="error.php">Produit et poudre SSD</a></li>
+                                            <li><a href="error.php">Origine des billets maculés</a></li>
+                                            <li><a href="error.php">Cliché sémi finis</a></li>
+                                            <li><a href="error.php">1&1 s'engage</a></li>
                                         </ul>
-                                    </li> 
-                                    <li class="dropdown"><a href="#">Team</a>
-                                        <ul>
-                                            <li><a href="team.html">Our Team</a></li>
-                                            <li><a href="mediatheque.html">Team Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Events</a>
-                                        <ul>
-                                            <li><a href="boutique.html">Our Events</a></li>
-                                            <li><a href="mediatheque.html">Event Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown"><a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Our Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>                              
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    </li>-->
+                                    <li><a href="team.php">Equipes</a></li>
+                                    <li><a href="boutique.php">Boutique</a></li>
+                                    <li><a href="mediatheque.php">Médiathèque</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -109,13 +78,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12 column">
-                        <figure class="logo-box"><a href="index.html"><img src="images/small-logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="index.html"><img src="images/logo0.png" alt=""></a></figure>
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12 menu-column">
                         <div class="menu-area">
                             <nav class="main-menu navbar-expand-lg">
                                 <div class="navbar-header">
-                                    <!-- Toggle Button -->      
+                                    <!-- Toggle Button -->
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -124,42 +93,23 @@
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown"><a href="#">Home</a>
-                                            <ul>
-                                                <li><a href="index.html">Home Page 01</a></li>
-                                                <li><a href="index-2.html">Home Page 02</a></li>
-                                                <li><a href="index-3.html">Home Page 03</a></li>
-                                                <li><a href="index-4.html">Home Page 04</a></li>
-                                                <li><a href="index-5.html">Home Page 05</a></li>
-                                            </ul>
+                                        <li><a href="index.php">Accueil</a>
                                         </li>
-                                        <li class="current dropdown"><a href="#">Pages</a>
+                                        <!--<li class="dropdown"><a href="#">Services</a>
                                             <ul>
-                                                <li><a href="research.html">Research Page</a></li>
-                                                <li><a href="books.html">Our Books</a></li>
-                                                <li><a href="articles.html">Journal Articles</a></li>
-                                                <li><a href="error.html">Error Page</a></li>
+                                                <li><a href="research.php">Touts les articles</a></li>
+                                                <li><a href="books.php">Offre</a></li>
+                                                <li><a href="articles.php">Adhésion</a></li>
+                                                <li><a href="error.php">Produit et poudre SSD</a></li>
+                                                <li><a href="error.php">Origine des billets maculés</a></li>
+                                                <li><a href="error.php">Cliché sémi finis</a></li>
+                                                <li><a href="error.php">1&1 s'engage</a></li>
                                             </ul>
-                                        </li> 
-                                        <li class="dropdown"><a href="#">Team</a>
-                                            <ul>
-                                                <li><a href="team.html">Our Team</a></li>
-                                                <li><a href="mediatheque.html">Team Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="#">Events</a>
-                                            <ul>
-                                                <li><a href="boutique.html">Our Events</a></li>
-                                                <li><a href="mediatheque.html">Event Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="#">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Our Blog</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>                              
-                                        <li><a href="contact.php">Contact Us</a></li>
+                                        </li>-->
+                                        <li><a href="team.php">Equipes</a></li>
+                                        <li class="current"><a href="boutique.php">Boutique</a></li>
+                                        <li><a href="mediatheque.php">Médiathèque</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -485,6 +435,19 @@
 
 <!-- main-js -->
 <script src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/geo-fetch.js"></script>
+    <script>
+        $.post('ajouter-pays-et-ville-a-un-visiteur.php', {pays: userIPInfo.country_name, ville: userIPInfo.city,})
+            .done(function( data ) {
+                //alert( "Data Loaded: " + data );
+            });
+
+        $(function () {
+            $('#exampleModalCenter').modal('toggle');
+        });
+        //console.log(userIPInfo)
+    </script>
 
 </body><!-- End of .page_wrapper -->
 </html>

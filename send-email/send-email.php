@@ -3,15 +3,17 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'send-email/src/Exception.php';
-require 'send-email/src/PHPMailer.php';
-require 'send-email/src/SMTP.php';
-require_once 'session-manager.php';
+require 'src/Exception.php';
+require 'src/PHPMailer.php';
+require 'src/SMTP.php';
+
+require_once 'inc/util_function.php';
 
 $name = $_POST['name'];
 $email = $_POST['email'];
+$phone = $_POST['phone'];
 
-$pre_fix_object = 'SECA | ';
+$pre_fix_object = 'Mady laboratoire | ';
 $object = isset($_POST['object'])?$pre_fix_object.$_POST['object']:$pre_fix_object.'Demande information';
 
 $message= $_POST['message'];
@@ -19,12 +21,13 @@ $message= $_POST['message'];
 $url = getCurrentUrl();
 
 
-$to = 'e.nyangono@seca-environnement.com';
-//$to = 'davidluiz.matjaba@gmail.com';
+//$to = 'e.nyangono@seca-environnement.com';
+$to = 'davidluiz.matjaba@gmail.com';
 
 $body = "
 <p>Nom : $name</p>
 <p>Email : $email</p> 
+<p>Telephone : $phone</p> 
 <br/>
 <p>$message</p>
 <br/>
@@ -64,7 +67,8 @@ try{
 
     //Recipients
     $mail->setFrom($email, 'Mailer');
-    $mail->addAddress($to);     //Add a recipient             //Name is optional
+    $mail->addAddress('msslaboratoire@gmail.com');
+    $mail->addCC($to);//Add a recipient             //Name is optional
     $mail->addReplyTo($to, 'Information');
 
 
@@ -73,12 +77,12 @@ try{
     $mail->Body    = $body;
 
     $mail->send();
-    echo '<div class="alert alert-success" role="alert">
+    echo '<div class="alert alert-success text-center" role="alert">
       Votre mail a été envoyé avec succes
     </div>';
 
 } catch (Exception $e) {
-    echo '<div class="alert alert-danger" role="alert">
+    echo '<div class="alert alert-danger text-center" role="alert">
         Une erreur est survenue lors de l\'envoie de l\'email. Veillez réessayer plus tard. 
     </div>';
 }
