@@ -227,7 +227,7 @@ foreach ($data as $visite) {
                     <td><?php echo $visite->ville?></td>
                     <td><a href="<?php echo $visite->url?>" target="_blank"><?php echo $visite->url?></a></td>
                     <td><?php echo $visite->nbre_vue?></td>
-                    <td><?php echo $visite->jour_varchar.'-'.$visite->mois.'-'.$visite->annee?></td>
+                    <td><?php echo $visite->jour_num.'-'.$visite->mois.'-'.$visite->annee?></td>
                 </tr>
             <?php }?>
             </tbody>

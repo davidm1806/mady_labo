@@ -11,7 +11,7 @@ if (isset($conn)) {
 
     $utilisateur = $query->fetch();
 
-    var_dump($utilisateur);
+    //var_dump($utilisateur);
 
 
     if(isset($utilisateur->password) && $utilisateur->password == $password){
