@@ -82,7 +82,7 @@ if (empty($_COOKIE['info'])) {
 
 
     $id = $visiteur_id->id;
-    //var_dump($visiteur_id);
+    var_dump($id);
     $conn->query("update visiteur_page set nbre_vue= (nbre_vue +1) where visiteur_id='$id' and url='$url'");
     //var_dump($session_id);
 }
