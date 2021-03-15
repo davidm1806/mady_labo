@@ -102,7 +102,7 @@ function visiteur_page_save($ip_adress, $pays, $vile,$session_id,$ip_adress_prox
     $password = 'Mady12345678';
     $db_name = 'etsman2285_mady_labo';
 
-    $conn = new PDO("mysql:host=$servername;dbname=mady_bd", $username, $password, [
+    $conn = new PDO("mysql:host=$servername;dbname=$db_name", $username, $password, [
         //On définit le mode d'erreur de PDO sur Exception
         PDO::ATTR_ERRMODE=> PDO::ERRMODE_EXCEPTION,
         //ON definit le forma de retour des données
