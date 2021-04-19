@@ -76,6 +76,7 @@ if (empty($_COOKIE['info'])) {
     $conn->exec("insert into visiteur_page values ('0','0','$url','$id','1', '0','$jr_num', '$jr_varchar','$mois','$annee')");
 
 } else {
+    var_dump($conn);
     $session_id = $_COOKIE['info'];
     $query = $conn->query("select id from visiteur where session_id='$session_id'");
     $visiteur_id = $query->fetch();

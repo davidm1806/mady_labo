@@ -7,7 +7,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Aculia - THEME SHARED ON THEMELOCK.COM - HTML 5 Template Preview</title>
+    <meta name="keywords" content="Laboratoire, Mady solution,
+ nettoyage de billets, billet vert, billet imaculés,
+  multiplication de billet, produit en poudre SSD, machine XOXO 2, sécuriser billet">
+
+<title>Maddy solution - Notre Equipe</title>
 
 <!-- Stylesheets -->
 <link href="css/style.css" rel="stylesheet">
@@ -46,19 +50,7 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li><a href="index.php">Accueil</a>
-                                    </li>
-                                    <!--<li class="dropdown"><a href="#">Services</a>
-                                        <ul>
-                                            <li><a href="research.php">Touts les articles</a></li>
-                                            <li><a href="books.php">Offre</a></li>
-                                            <li><a href="articles.php">Adhésion</a></li>
-                                            <li><a href="error.php">Produit et poudre SSD</a></li>
-                                            <li><a href="error.php">Origine des billets maculés</a></li>
-                                            <li><a href="error.php">Cliché sémi finis</a></li>
-                                            <li><a href="error.php">1&1 s'engage</a></li>
-                                        </ul>
-                                    </li>-->
+                                    <li><a href="index.php">Accueil</a></li>
                                     <li><a href="team.php">Equipes</a></li>
                                     <li><a href="boutique.php">Boutiques</a></li>
                                     <li><a href="mediatheque.php">Médiathèque</a></li>
@@ -93,17 +85,6 @@
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
                                         <li><a href="index.php">Accueil</a></li>
-                                        <!--<li class="dropdown"><a href="#">Services</a>
-                                            <ul>
-                                                <li><a href="research.php">Touts les articles</a></li>
-                                                <li><a href="books.php">Offre</a></li>
-                                                <li><a href="articles.php">Adhésion</a></li>
-                                                <li><a href="error.php">Produit et poudre SSD</a></li>
-                                                <li><a href="error.php">Origine des billets maculés</a></li>
-                                                <li><a href="error.php">Cliché sémi finis</a></li>
-                                                <li><a href="error.php">1&1 s'engage</a></li>
-                                            </ul>
-                                        </li>-->
                                         <li class="current"><a href="team.php">Equipes</a></li>
                                         <li class="dropdown"><a href="#">Médiathèques</a>
                                             <ul>

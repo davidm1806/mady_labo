@@ -6,7 +6,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="keywords" content="Laboratoire, Mady solution,
+ nettoyage de billets, billet vert, billet imaculés,
+  multiplication de billet, produit en poudre SSD, machine XOXO 2, sécuriser billet">
 <title>Aculia - THEME SHARED ON THEMELOCK.COM - HTML 5 Template Preview</title>
 
 <!-- Stylesheets -->
@@ -414,7 +416,7 @@
     <span class="fa fa-angle-up"></span>
 </button>
 
-
+<?php include 'component/social-login.php'?>
 
 <!-- jequery plugins -->
 <script src="js/jquery.js"></script>

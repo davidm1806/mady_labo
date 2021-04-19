@@ -4337,3 +4337,13 @@ figure{
   color: #ff0000;
 }
 
+.social-login-container{
+  position: fixed;
+  left: 50px;
+  top: 40%;
+  z-index: 9999;
+}
+
+.social-login-container p {
+  box-shadow: 5px 5px 20px;
+}

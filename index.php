@@ -5,7 +5,9 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="keywords" content="Laboratoire, Mady solution,
+ nettoyage de billets, billet vert, billet imaculés,
+  multiplication de billet, produit en poudre SSD, machine XOXO 2, sécuriser billet">
 <title>LABORATOIRE MADY SOLUTION SERVICES</title>
 
 <!-- Stylesheets -->
@@ -47,19 +49,7 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="index.php">Accueil</a>
-                                    </li>
-                                    <!--<li class="dropdown"><a href="#">Services</a>
-                                        <ul>
-                                            <li><a href="research.php">Touts les articles</a></li>
-                                            <li><a href="books.php">Offre</a></li>
-                                            <li><a href="articles.php">Adhésion</a></li>
-                                            <li><a href="error.php">Produit et poudre SSD</a></li>
-                                            <li><a href="error.php">Origine des billets maculés</a></li>
-                                            <li><a href="error.php">Cliché sémi finis</a></li>
-                                            <li><a href="error.php">1&1 s'engage</a></li>
-                                        </ul>
-                                    </li>-->
+                                    <li class="current"><a href="index.php">Accueil</a></li>
                                     <li><a href="team.php">Equipes</a></li>
                                     <li><a href="boutique.php">Boutique</a></li>
                                     <li><a href="mediatheque.php">Médiathèque</a></li>
@@ -94,19 +84,7 @@
                                 </div>
                                 <div class="navbar-collapse collapse clearfix">
                                     <ul class="navigation clearfix">
-                                        <li class="current"><a href="index.php">Accueil</a>
-                                        </li>
-                                        <!--<li class="dropdown"><a href="#">Services</a>
-                                            <ul>
-                                                <li><a href="research.php">Touts les articles</a></li>
-                                                <li><a href="books.php">Offre</a></li>
-                                                <li><a href="articles.php">Adhésion</a></li>
-                                                <li><a href="error.php">Produit et poudre SSD</a></li>
-                                                <li><a href="error.php">Origine des billets maculés</a></li>
-                                                <li><a href="error.php">Cliché sémi finis</a></li>
-                                                <li><a href="error.php">1&1 s'engage</a></li>
-                                            </ul>
-                                        </li>-->
+                                        <li class="current"><a href="index.php">Accueil</a></li>
                                         <li><a href="team.php">Equipes</a></li>
                                         <li><a href="boutique.php">Boutique</a></li>
                                         <li><a href="mediatheque.php">Médiathèque</a></li>
@@ -799,7 +777,7 @@
                                 Au vu des multiples problèmes que rencontrent plusieurs clients au sujet du nettoyage des billets de banque,le laboratoire Maddy solutution a avons pris l’initiative de nous mettre à la disposition de tout les détenteurs des billets de banque semi-fini qui soit noir,vert,Bleu et qui désirent trouver une solution définitive
                             </div>
                             <ul class="footer-social clearfix">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.facebook.com/laboratoire.mss"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -841,7 +819,7 @@
     <span class="fa fa-angle-up"></span>
 </button>
 
-
+<?php include 'component/social-login.php'?>
 
 <!-- jequery plugins -->
 <script src="js/jquery.js"></script>
@@ -876,5 +854,7 @@
         //console.log(userIPInfo)
     </script>
 
+
 </body><!-- End of .page_wrapper -->
 </html>
+
