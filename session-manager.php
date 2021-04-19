@@ -31,10 +31,6 @@ catch(PDOException $e){
 
 /* enregistrement des données du serveur */
 $ip_adress = $_SERVER['REMOTE_ADDR'];
-//var_dump($ip_adress);
-//$record = geoip_record_by_name($ip_adress);
-//$pays = $record["country_name"];
-//$ville = $record['city'];
 
 $pays ='';
 $ville = '';
@@ -76,16 +72,13 @@ if (empty($_COOKIE['info'])) {
     $conn->exec("insert into visiteur_page values ('0','0','$url','$id','1', '0','$jr_num', '$jr_varchar','$mois','$annee')");
 
 } else {
-    var_dump($conn);
     $session_id = $_COOKIE['info'];
     $query = $conn->query("select id from visiteur where session_id='$session_id'");
     $visiteur_id = $query->fetch();
 
 
     $id = $visiteur_id->id;
-    //var_dump($id);
     $conn->query("update visiteur_page set nbre_vue= (nbre_vue +1) where visiteur_id='$id' and url='$url'");
-    //var_dump($session_id);
 }
 
 
@@ -118,12 +111,10 @@ function visiteur_page_save($ip_adress, $pays, $vile,$session_id,$ip_adress_prox
     $conn->exec("insert into visiteur(ip_adress, pays, ville, session_id, ip_adress_proxy) values ('$ip_adress', '$pays', '$vile', '$session_id', '$ip_adress_proxy')");
 
     $query= $conn->query("select id from visiteur order by id desc limit 1");
-    //var_dump($query);
     $visiteur_id = $query->fetch();
 
     $id = $visiteur_id->id;
 
-    //var_dump($id);
 
     $GLOBALS['visiteur_id']=$id;
     return $conn->exec("insert into visiteur_page values ('0','0','$url','$id','$nbr_vue', '0','$jr_num', '$jr_varchar','$mois','$annee')");
