@@ -4347,3 +4347,9 @@ figure{
 .social-login-container p {
   box-shadow: 5px 5px 20px;
 }
+
+@media (max-width: 600px) {
+  .social-login-container{
+    left: 5px;
+  }
+}
