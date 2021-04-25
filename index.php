@@ -173,9 +173,9 @@
                 <div class="col-lg-5 col-md-6 col-sm-12 service-column">
                     <div class="single-service-content inner-box">
                         <figure class="image-box">
-                            <img src="images/service/euro-2427196_640.jpg" class="w-100" alt="">
-
+                            <img src="images/service/img_8.jpeg" class="w-100" alt="">
                         </figure>
+
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 col-sm-12 service-column">
@@ -214,74 +214,9 @@
                     </p>
                 </div>
 
-                <!--<div class="col-lg-3 col-md-6 col-sm-12 service-column">
-                    <div class="single-service-content inner-box">
-                        <figure class="image-box">
-                            <img src="images/service/euro-2427196_640.jpg" style="height: 200px; width: 270px" alt="">
-                            <div class="overlay">
-                                <div class="wrapper">
-                                    <a href="#"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </figure>
-                        <div class="lower-content">
-                            <h5><a href="#">Immunology: T-cell tweaks to target tumours</a></h5>
-                            <div class="text">Excepteur sint ocecat cupidatat non proi dent sunt in culpa qui officia dese</div>
-                            <div class="link"><a href="#" class="theme-btn-two">Read More</a></div>
-                        </div>
-                    </div>
+                <div class="col-12 mt-3 text-center">
+                    <img src="images/service/img_6.jpg" class="w-100" alt="">
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 service-column">
-                    <div class="single-service-content inner-box">
-                        <figure class="image-box">
-                            <img src="images/service/sd_5ee01eb2979ad.jpg" style="height: 200px; width: 270px" alt="">
-                            <div class="overlay">
-                                <div class="wrapper">
-                                    <a href="#"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </figure>
-                        <div class="lower-content">
-                            <h5><a href="#">Molecular biology: RNA editing packs a two punch</a></h5>
-                            <div class="text">Excepteur sint ocecat cupidatat non proi dent sunt in culpa qui officia dese</div>
-                            <div class="link"><a href="#" class="theme-btn-two">Read More</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 service-column">
-                    <div class="single-service-content inner-box">
-                        <figure class="image-box">
-                            <img src="images/service/sd_5ee01fc65898d.jpg" style="height: 200px; width: 270px" alt="">
-                            <div class="overlay">
-                                <div class="wrapper">
-                                    <a href="#"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </figure>
-                        <div class="lower-content">
-                            <h5><a href="#">Cardiovascular disease: Commonality with cancer</a></h5>
-                            <div class="text">Excepteur sint ocecat cupidatat non proi dent sunt in culpa qui officia dese</div>
-                            <div class="link"><a href="#" class="theme-btn-two">Read More</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 service-column">
-                    <div class="single-service-content inner-box">
-                        <figure class="image-box">
-                            <img src="images/service/sd_5ee026c279082.jpg" style="height: 200px; width: 270px" alt="">
-                            <div class="overlay">
-                                <div class="wrapper">
-                                    <a href="#"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </figure>
-                        <div class="lower-content">
-                            <h5><a href="#">Immunology: T-cell tweaks to target tumours</a></h5>
-                            <div class="text">Excepteur sint ocecat cupidatat non proi dent sunt in culpa qui officia dese</div>
-                            <div class="link"><a href="#" class="theme-btn-two">Read More</a></div>
-                        </div>
-                    </div>
-                </div>-->
             </div>
         </div>
     </section>
@@ -432,6 +367,7 @@
             </div>
         </div>
     </section>
+
     <!-- service-style-five end -->
 
     <!-- feature-section -->
@@ -446,6 +382,184 @@
 
 
                 <div class="row">
+                    <div class="col-md-4 mt-2">
+                        <!-- bbb_deals -->
+                        <div class="bbb_deals">
+                            <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>4</span></div>
+                            <div class="bbb_deals_title">Nos offres du jour</div>
+                            <div class="bbb_deals_slider_container">
+                                <div class=" bbb_deals_item">
+                                    <div class="bbb_deals_image"><img src="images/product/img_6.png" class="img-card" alt=""></div>
+                                    <div class="bbb_deals_content">
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_category"><a href="#"></a>Nettoyeuse</div>
+                                            <div class="bbb_deals_item_price_a ml-auto"><strike>3,000.00$</strike></div>
+                                        </div>
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_name">LG/décapant</div>
+                                            <div class="bbb_deals_item_price ml-auto">1,999.00$</div>
+                                        </div>
+                                        <div class="available">
+                                            <div class="available_line d-flex flex-row justify-content-start">
+                                                <div class="available_title">Dispinible: <span>20</span></div>
+                                                <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                            </div>
+                                            <div class="available_bar"><span style="width:17%"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-2">
+                        <!-- bbb_deals -->
+                        <div class="bbb_deals">
+                            <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>4</span></div>
+                            <div class="bbb_deals_title">Nos offres du jour</div>
+                            <div class="bbb_deals_slider_container">
+                                <div class=" bbb_deals_item">
+                                    <div class="bbb_deals_image"><img src="images/product/img_7.png" class="img-card" alt=""></div>
+                                    <div class="bbb_deals_content">
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_category"><a href="#"></a>Coffre</div>
+                                            <div class="bbb_deals_item_price_a ml-auto"><strike>2,000.00$</strike></div>
+                                        </div>
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_name">Coffre stérilisé</div>
+                                            <div class="bbb_deals_item_price ml-auto">1,800.00$</div>
+                                        </div>
+                                        <div class="available">
+                                            <div class="available_line d-flex flex-row justify-content-start">
+                                                <div class="available_title">Dispinible: <span>25</span></div>
+                                                <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                            </div>
+                                            <div class="available_bar"><span style="width:17%"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-2">
+                        <!-- bbb_deals -->
+                        <div class="bbb_deals">
+                            <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>4</span></div>
+                            <div class="bbb_deals_title">Nos offres du jour</div>
+                            <div class="bbb_deals_slider_container">
+                                <div class=" bbb_deals_item">
+                                    <div class="bbb_deals_image"><img src="images/product/img_8.png" class="img-card" alt=""></div>
+                                    <div class="bbb_deals_content">
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_category"><a href="#"></a>Solution</div>
+                                            <div class="bbb_deals_item_price_a ml-auto"><strike>750.00$</strike></div>
+                                        </div>
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_name">Ampoule Généra...</div>
+                                            <div class="bbb_deals_item_price ml-auto">400.00$</div>
+                                        </div>
+                                        <div class="available">
+                                            <div class="available_line d-flex flex-row justify-content-start">
+                                                <div class="available_title">Dispinible: <span>320</span></div>
+                                                <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                            </div>
+                                            <div class="available_bar"><span style="width:17%"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ====================== ligne ============================ -->
+                    <div class="col-md-4">
+                        <!-- bbb_deals -->
+                        <div class="bbb_deals">
+                            <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>4</span></div>
+                            <div class="bbb_deals_title">Nos offres du jour</div>
+                            <div class="bbb_deals_slider_container">
+                                <div class=" bbb_deals_item">
+                                    <div class="bbb_deals_image"><img src="images/product/img_21.png" class="img-card" alt=""></div>
+                                    <div class="bbb_deals_content">
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_category"><a href="#"></a>MACHINE xoxo1...</div>
+                                            <div class="bbb_deals_item_price_a ml-auto"><strike>48,000$</strike></div>
+                                        </div>
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_name">MACHINE xoxo1...</div>
+                                            <div class="bbb_deals_item_price ml-auto">48,000$</div>
+                                        </div>
+                                        <div class="available">
+                                            <div class="available_line d-flex flex-row justify-content-start">
+                                                <div class="available_title">Dispinible: <span>50</span></div>
+                                                <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                            </div>
+                                            <div class="available_bar"><span style="width:17%"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- bbb_deals -->
+                        <div class="bbb_deals">
+                            <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>2</span></div>
+                            <div class="bbb_deals_title">Offre du jour</div>
+                            <div class="bbb_deals_slider_container">
+                                <div class=" bbb_deals_item">
+                                    <div class="bbb_deals_image"><img src="images/product/img_20.png" class="img-card" alt=""></div>
+                                    <div class="bbb_deals_content">
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_category"><a href="#">D7 S.S.D automatic (article G616)</a></div>
+                                            <div class="bbb_deals_item_price_a ml-auto"><strike>18,000$</strike></div>
+                                        </div>
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_name">D7 S.S.D autom...</div>
+                                            <div class="bbb_deals_item_price ml-auto">14,000$</div>
+                                        </div>
+                                        <div class="available">
+                                            <div class="available_line d-flex flex-row justify-content-start">
+                                                <div class="available_title">Disponible: <span>320</span></div>
+                                                <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                            </div>
+                                            <div class="available_bar"><span style="width:17%"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- bbb_deals -->
+                        <div class="bbb_deals">
+                            <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>3</span></div>
+                            <div class="bbb_deals_title">Offre du jour</div>
+                            <div class="bbb_deals_slider_container">
+                                <div class=" bbb_deals_item">
+                                    <div class="bbb_deals_image"><img src="images/product/img_17.png" class="img-card" alt=""></div>
+                                    <div class="bbb_deals_content">
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_category"><a href="#">Mercury solution clean (art G617)</a></div>
+                                            <div class="bbb_deals_item_price_a ml-auto"><strike>18,000.00$</strike></div>
+                                        </div>
+                                        <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                            <div class="bbb_deals_item_name">Mercury solution</div>
+                                            <div class="bbb_deals_item_price ml-auto">18,000.00$</div>
+                                        </div>
+                                        <div class="available">
+                                            <div class="available_line d-flex flex-row justify-content-start">
+                                                <div class="available_title">Disponibilité: <span>75</span></div>
+                                                <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                            </div>
+                                            <div class="available_bar"><span style="width:17%"></span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===================== ligne ================================= -->
                     <div class="col-md-4">
                         <!-- bbb_deals -->
                         <div class="bbb_deals">

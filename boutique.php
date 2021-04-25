@@ -119,6 +119,95 @@
         <div class="container">
             <div class="row">
 
+                <!-- ====================== ligne ============================ -->
+                <div class="col-md-4">
+                    <!-- bbb_deals -->
+                    <div class="bbb_deals">
+                        <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>4</span></div>
+                        <div class="bbb_deals_title">Nos offres du jour</div>
+                        <div class="bbb_deals_slider_container">
+                            <div class=" bbb_deals_item">
+                                <div class="bbb_deals_image"><img src="images/product/img_21.png" class="img-card" alt=""></div>
+                                <div class="bbb_deals_content">
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_category"><a href="#"></a>MACHINE xoxo1...</div>
+                                        <div class="bbb_deals_item_price_a ml-auto"><strike>48,000$</strike></div>
+                                    </div>
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_name">MACHINE xoxo1...</div>
+                                        <div class="bbb_deals_item_price ml-auto">48,000$</div>
+                                    </div>
+                                    <div class="available">
+                                        <div class="available_line d-flex flex-row justify-content-start">
+                                            <div class="available_title">Dispinible: <span>50</span></div>
+                                            <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                        </div>
+                                        <div class="available_bar"><span style="width:17%"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- bbb_deals -->
+                    <div class="bbb_deals">
+                        <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>2</span></div>
+                        <div class="bbb_deals_title">Offre du jour</div>
+                        <div class="bbb_deals_slider_container">
+                            <div class=" bbb_deals_item">
+                                <div class="bbb_deals_image"><img src="images/product/img_20.png" class="img-card" alt=""></div>
+                                <div class="bbb_deals_content">
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_category"><a href="#">D7 S.S.D automatic (article G616)</a></div>
+                                        <div class="bbb_deals_item_price_a ml-auto"><strike>18,000$</strike></div>
+                                    </div>
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_name">D7 S.S.D autom...</div>
+                                        <div class="bbb_deals_item_price ml-auto">14,000$</div>
+                                    </div>
+                                    <div class="available">
+                                        <div class="available_line d-flex flex-row justify-content-start">
+                                            <div class="available_title">Disponible: <span>320</span></div>
+                                            <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                        </div>
+                                        <div class="available_bar"><span style="width:17%"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- bbb_deals -->
+                    <div class="bbb_deals">
+                        <div class="ribbon ribbon-top-right"><span><small class="cross">x </small>3</span></div>
+                        <div class="bbb_deals_title">Offre du jour</div>
+                        <div class="bbb_deals_slider_container">
+                            <div class=" bbb_deals_item">
+                                <div class="bbb_deals_image"><img src="images/product/img_17.png" class="img-card" alt=""></div>
+                                <div class="bbb_deals_content">
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_category"><a href="#">Mercury solution clean (art G617)</a></div>
+                                        <div class="bbb_deals_item_price_a ml-auto"><strike>18,000.00$</strike></div>
+                                    </div>
+                                    <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
+                                        <div class="bbb_deals_item_name">Mercury solution</div>
+                                        <div class="bbb_deals_item_price ml-auto">18,000.00$</div>
+                                    </div>
+                                    <div class="available">
+                                        <div class="available_line d-flex flex-row justify-content-start">
+                                            <div class="available_title">Disponibilité: <span>75</span></div>
+                                            <div class="sold_stars ml-auto"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </div>
+                                        </div>
+                                        <div class="available_bar"><span style="width:17%"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- ============== Deuxième ligne ====================== -->
                 <div class="col-md-4 mt-2">
                     <!-- bbb_deals -->
@@ -131,11 +220,11 @@
                                 <div class="bbb_deals_content">
                                     <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
                                         <div class="bbb_deals_item_category"><a href="#"></a>Nettoyeuse</div>
-                                        <div class="bbb_deals_item_price_a ml-auto"><strike>60,000.00$</strike></div>
+                                        <div class="bbb_deals_item_price_a ml-auto"><strike>3,000.00$</strike></div>
                                     </div>
                                     <div class="bbb_deals_info_line d-flex flex-row justify-content-start">
-                                        <div class="bbb_deals_item_name">Machine XOXO 2</div>
-                                        <div class="bbb_deals_item_price ml-auto">45,999.00$</div>
+                                        <div class="bbb_deals_item_name">LG/décapant</div>
+                                        <div class="bbb_deals_item_price ml-auto">1,999.00$</div>
                                     </div>
                                     <div class="available">
                                         <div class="available_line d-flex flex-row justify-content-start">
