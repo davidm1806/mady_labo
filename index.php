@@ -117,7 +117,7 @@
                             de billets de banque noirs et verts etc..
                         </div>
                         <div class="slider-btn">
-                            <a href="#" class="theme-btn theme-btn-three">Contactez nous</a>
+                            <a href="contact.php" class="theme-btn theme-btn-three">Contactez nous</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                         <h1>Billets de<br/> banque en $</h1>
                         <div class="text">Resultats obtenus après nettoyqges <br/> chez MADY SOLUTION</div>
                         <div class="slider-btn">
-                            <a href="#" class="theme-btn theme-btn-three">Contactez nous</a>
+                            <a href="contact.php" class="theme-btn theme-btn-three">Contactez nous</a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                         <h1>Notre <br/>Service Technique</h1>
                         <div class="text">Direction générale des laboratoires MADY SOLUTION</div>
                         <div class="slider-btn">
-                            <a href="#" class="theme-btn theme-btn-three">Contactez nous</a>
+                            <a href="contact.php" class="theme-btn theme-btn-three">Contactez nous</a>
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                         <h1>Machine XOXO 2</h1>
                         <div class="text">Machine XOXO 2 pour réactiver les billets de banque <br/> en verts chez MADY SOLUTION</div>
                         <div class="slider-btn">
-                            <a href="#" class="theme-btn theme-btn-three">Contactez nous</a>
+                            <a href="contact.php" class="theme-btn theme-btn-three">Contactez nous</a>
                         </div>
                     </div>
                 </div>
@@ -752,7 +752,7 @@
         <div class="container">
             <div class="content-box centred">
                 <div class="cta-title">Tous nos services sont inspecter par<br /> des professionnels</div>
-                <div class="link"><a href="#" class="theme-btn">Contactez nous</a></div>
+                <div class="link"><a href="contact.php" class="theme-btn">Contactez nous</a></div>
             </div>
             <div class="lower-cta-content">
                 <div class="title">Opérations réalisées</div>
